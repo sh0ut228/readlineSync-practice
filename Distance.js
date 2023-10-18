@@ -4,8 +4,6 @@ const calculateDistance = () => {
     const y = readlineSync.question('Y1 '); 
     const z = readlineSync.question('X2 ');
     const w = readlineSync.question('Y2 ');
-    const nigger = (z - x) ** 2;
-    const white = (w - y) ** 2;
     return Math.sqrt((z - x) ** 2 + (w - y) ** 2) ;
 }
 console.log(calculateDistance());
